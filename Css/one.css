@@ -1,0 +1,308 @@
+/* .Clear{
+  clear: both;
+}
+
+. Used for class
+ .color{color: red;}
+
+# used for id
+ #color{color: orange;}
+
+*{
+  padding: 1px;
+  margin: 5px;
+}
+
+ .division{
+   height: 250px;
+   width: 250px;
+   background-color: #1E878E;
+   color: #9FE7B4;
+   float: left;
+ }
+
+.division-two{
+  height: 250PX;
+  width: 250px;
+  background-color: #41B060;
+  float: left;
+}
+
+.one{
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  color: white;
+  padding: 20px 10px 20px 10px;
+  margin: 20px;
+  text-align: justify;
+} */
+
+/* p.dotted{
+  border-bottom: 5px solid #AA40CA;
+  border-style: dotted;
+}
+p.dashed{border-style: dashed;}
+p.double{border-style: double;}
+p.groove{border-style: groove;}
+p.solid{
+  border-left: 15px solid #327D48;
+  border-style: solid;
+  border-radius: 4px;
+}
+p.ridge{border-style: ridge;}
+p.inset{border-style: inset;}
+p.outset{border-style: outset;}
+p.none{border-style: none;}
+p.hidden{border-style: hidden;}
+} */
+
+/* .mouse{
+  height: 250px;
+  width: 250px;
+  margin: 0px auto;
+  background-color: red;
+  font-size: 60px;
+}
+
+.mouse:hover{
+  background-color: green;
+  height: 100px;
+  width: 500px;
+  font-size: 48px;
+  color: white;
+  text-align: center;
+}
+
+.position{
+  height: 300px;
+  width: 500px;
+  background-color: green;
+  position: relative;
+}
+
+.middle{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 70px;
+  left: 170px;
+}
+
+.main{
+  margin: 0px auto;
+  background-color: black;
+  height: 650px;
+  width: 650px;
+  position: relative;
+}
+
+.circle-1{
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.circle-2{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    position: absolute;
+    z-index: 15;
+    top: 200px;
+    left:200px;
+}
+
+.circle-3{
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    position: absolute;
+    z-index: 11;
+    top: 300px;
+    left: 300px;
+}
+
+.problem{
+  height: 100px;
+  width: 100px;
+  font-size: 50px;
+  background-color: orange;
+  overflow: hidden;
+  float: left;
+}
+
+.problem-1{
+  height: 120px;
+  width: 120px;
+  background-color: pink;
+  font-size: 50px;
+  overflow: hidden;
+  float: left;
+}
+
+.opacity{
+  height: 300px;
+  width: 300px;
+  background-color: #000;
+  color: red;
+  margin: 60px auto;
+  transition: all linear 1s;
+}
+
+.opacity:hover{
+  opacity: 0.8;
+  transform: rotate(45deg);
+  background-color: green;
+} */
+
+
+/* *{
+  padding: 0;
+  margin: 0;
+}
+.header{
+  height: 250px;
+  background-color: green;
+}
+
+.banner{
+  height: 450px;
+  background-color: red;
+}
+
+.content{
+  height: 600px;
+  background-color: yellow;
+}
+
+.footer{
+  height: 300px;
+  background-color: pink;
+}
+
+.gallery .main-gallery h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.gallery .main-gallery img{
+  height: 300px;
+  width: 300px;
+  transition: all linear 2s;
+}
+
+.gallery .main-gallery img:hover{
+  transform: rotate(360deg);
+  border-radius: 50%;
+  /* transform:scale(1.5); */
+} */
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu{
+  height: 50px;
+  background-color: #0F0523;
+  margin-top: 20px;
+}
+
+.menubar{
+  width: 1170px;
+  margin: 0px auto;
+  background-color: #0D6C6A;
+}
+
+.menubar ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menubar ul li{
+  /* margin-right: 20px; */
+  background-color: #47660E;
+  line-height: 49px;
+  float: left;
+}
+
+.menubar ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: #E8F5F2;
+  padding: 14px 10px;
+  transition: all linear 0.5s;
+  font-weight: 800;
+}
+
+.menubar ul li a:hover{
+  background-color: #E8C6DF;
+  color: black;
+}
+
+/* Dropdown Menu CSS */
+
+.menubar ul li ul{
+  display: none;
+}
+
+.menubar ul li:hover ul{
+  display: block;
+}
+
+.menubar ul li ul li{
+  float: none;
+  line-height: 30px;
+}
+
+.menubar ul li ul li a{
+  color: #fff;
+  background-color: #156241;
+  padding: 6px 10px;
+
+}
+
+.menubar ul li ul li a:hover{
+  color: orange;
+  background-color: black;
+}
+
+/* Pagination CSS */
+.pagination{
+  width: 500px;
+  margin: 0px auto;
+}
+
+.pagination ul{
+  list-style-type: none;
+}
+
+.pagination ul li a{
+  float: left;
+  margin: 60px 10px 5px 10px;
+}
+
+.pagination ul li a{
+  text-decoration: none;
+  margin-right: 10px;
+  padding: 5px 10px;
+  color: green;
+}
+
+.pagination ul li a:hover{
+  color: red;
+  background-color: orange;
+}
+
+.pagination ul li .active{
+  color: red;
+  background-color: orange;
+}
